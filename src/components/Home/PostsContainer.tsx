@@ -13,7 +13,7 @@ const PostsContainer = ({ posts }: { posts: PostWithUser[] }) => {
   console.log(posts);
   return (
     <div className="container-w mt-4 flex flex-col items-start justify-start">
-      <div className="min-h-[70vh] w-full overflow-y-auto overflow-x-hidden">
+      <div className="no-scrollbar flex h-[70vh] w-full flex-col items-start justify-start gap-y-4 overflow-y-auto overflow-x-hidden">
         {posts?.map(({ post, author }) => (
           <div
             key={post?.id}
