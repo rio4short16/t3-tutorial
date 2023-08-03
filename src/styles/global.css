@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body {
+    @apply text-base text-white;
+  }
+}
+@layer utilities {
+  .container-w {
+    @apply mx-auto w-full max-w-5xl px-10 md:px-20 lg:px-0;
+  }
+}
+.cl-internal-b3fm6y {
+  display: none !important;
+}/*# sourceMappingURL=global.css.map */
